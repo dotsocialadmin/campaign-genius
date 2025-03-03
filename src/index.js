@@ -1,16 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import BasicApp from './BasicApp';
+import App from './App';
+import { HashRouter } from 'react-router-dom';
 
+// Create root using modern React 18 API
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Render the app inside HashRouter for GitHub Pages compatibility
 root.render(
   <React.StrictMode>
-    <BasicApp />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </React.StrictMode>
 );
 
-// Add debug info to console
-console.log('React app rendering started');
-console.log('Public URL:', process.env.PUBLIC_URL);
+// Log initialization info for debugging
+console.log('React app rendering initialized');
 console.log('Root element:', document.getElementById('root'));

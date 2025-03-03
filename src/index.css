@@ -1,25 +1,14 @@
-:root {
-    /* Color Palette */
-    --primary: #435E50;
-    --secondary-1: #0B0721;
-    --secondary-2: #DF9DB8;
-    --secondary-3: #EFEDE3;
-    --secondary-4: #E1E9F4;
-    --secondary-5: #4F182A;
-    --accent-1: #FFFFFF;
-    --accent-2: #264336;
-    --accent-3: #E27558;
-  }
-  
-  * {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
-  body {
-    font-family: 'Poppins', 'Arial', sans-serif;
-    background-color: var(--secondary-3);
-    color: var(--secondary-1);
-    line-height: 1.6;
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
   }
