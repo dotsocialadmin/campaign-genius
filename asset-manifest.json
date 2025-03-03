@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/campaign-genius/static/js/main.31d6cfe0.js",
-    "index.html": "/campaign-genius/index.html"
+    "main.js": "/c/static/js/main.31d6cfe0.js",
+    "index.html": "/c/index.html"
   },
   "entrypoints": [
     "static/js/main.31d6cfe0.js"
