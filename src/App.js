@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import { MetaAPI } from './api/MetaAPI';
 import { ClaudeAPI } from './api/ClaudeAPI';
 import './App.css';
+import { HashRouter as Router } from 'react-router-dom';
 
 // Import sample data
 import { socialMediaData, industryTrends, campaignRecommendations, contentIdeas } from './data/sampleData';
@@ -95,7 +96,8 @@ function App() {
   };
   
   return (
-    <div className="app">
+    <Router>
+      <div className="app">
       {showSetupWizard ? (
         <SetupWizard 
           completeSetup={completeSetup} 
@@ -147,7 +149,8 @@ function App() {
         </>
       )}
     </div>
-  );
+  </Router>
+);
 }
 
 export default App;
