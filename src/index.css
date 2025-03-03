@@ -1,0 +1,25 @@
+:root {
+    /* Color Palette */
+    --primary: #435E50;
+    --secondary-1: #0B0721;
+    --secondary-2: #DF9DB8;
+    --secondary-3: #EFEDE3;
+    --secondary-4: #E1E9F4;
+    --secondary-5: #4F182A;
+    --accent-1: #FFFFFF;
+    --accent-2: #264336;
+    --accent-3: #E27558;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    background-color: var(--secondary-3);
+    color: var(--secondary-1);
+    line-height: 1.6;
+  }

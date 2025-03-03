@@ -1,6 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css';
+import BasicApp from './BasicApp';
 
-// Most minimal modern React application
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<h1>Hello, world!</h1>);
+root.render(
+  <React.StrictMode>
+    <BasicApp />
+  </React.StrictMode>
+);
+
+// Add debug info to console
+console.log('React app rendering started');
+console.log('Public URL:', process.env.PUBLIC_URL);
+console.log('Root element:', document.getElementById('root'));
